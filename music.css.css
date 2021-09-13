@@ -1,0 +1,220 @@
+/* #08709F;
+#3BD1DF;
+#690413;
+#ffd700; 
+#00008b;
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+header {
+   background-image: linear-gradient(to right bottom, #3bd1df9c, #086f9f9a), url(../music/love\ merged.jpg);
+   height: 100vh;
+   background-position: top;
+   background-size: cover;
+   position: relative;
+}
+body {
+   font-size: 23px;
+   color: #fff;
+   font-family: 'Averia Serif Libre', cursive;
+   font-weight: 600;
+}
+
+div {
+   text-align: center;
+   text-transform: capitalize;
+   padding-bottom: 20px; 
+}
+.container {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.one {
+    animation: move 5s linear 2s;
+    -webkit-animation: move 5s linear 2s;
+    -moz-animation: move 5s linear 2s;
+    -o-animation: move 5s linear 2s;
+    -ms-animation: move 5s linear 2s;
+ }
+ .two {
+    animation: move 6s linear 4s;
+    -webkit-animation: move 6s linear 4s;
+    -moz-animation: move 6s linear 4s;
+    -o-animation: move 6s linear 4s;
+    -ms-animation: move 6s linear 4s;
+ }
+ .three {
+    animation: move 5s linear 8s; 
+    -webkit-animation: move 5s linear 8s;
+    -moz-animation: move 5s linear 8s;
+    -o-animation: move 5s linear 8s;
+    -ms-animation: move 5s linear 8s;
+ }
+.four {
+    animation: move 6s linear 11s; 
+    -webkit-animation: move 6s linear 11s;
+    -moz-animation: move 6s linear 11s;
+    -o-animation: move 6s linear 11s;
+    -ms-animation: move 6s linear 11s;
+ }
+ .five {
+    animation: move 5s linear 15s;
+    -webkit-animation: move 5s linear 15s;
+    -moz-animation: move 5s linear 15s;
+    -o-animation: move 5s linear 15s;
+    -ms-animation: move 5s linear 15s;
+ }
+ .six {
+    animation: move 5s linear 19s;
+    -webkit-animation: move 5s linear 19s;
+    -moz-animation: move 5s linear 19s;
+    -o-animation: move 5s linear 19s;
+    -ms-animation: move 5s linear 19s;
+ }
+ .seven {
+    animation: move 4s linear 23s;
+    -webkit-animation: move 4s linear 23s;
+    -moz-animation: move 4s linear 23s;
+    -o-animation: move 4s linear 23s;
+    -ms-animation: move 4s linear 23s; 
+ }
+ .eight {
+    animation: move 8s linear 25s;
+    -webkit-animation: move 8s linear 25s;
+    -moz-animation: move 8s linear 25s;
+    -o-animation: move 8s linear 25s;
+    -ms-animation: move 8s linear 25s;
+ }
+ .nine {
+    animation: move 5s linear 29s;
+    -webkit-animation: move 5s linear 29s;
+    -moz-animation: move 5s linear 29s;
+    -o-animation: move 5s linear 29s;
+    -ms-animation: move 5s linear 29s;
+ }
+ .ten {
+    animation: move 7s linear 32s; 
+    -webkit-animation: move 7s linear 32s;
+    -moz-animation: move 7s linear 32s;
+    -o-animation: move 7s linear 32s;
+    -ms-animation: move 7s linear 32s;
+ }
+ .eleven {
+    animation: move 6s linear 35s; 
+    -webkit-animation: move 6s linear 35s;
+    -moz-animation: move 6s linear 35s;
+    -o-animation: move 6s linear 35s;
+    -ms-animation: move 6s linear 35s;
+ }
+ .twelve {
+    animation: move 5s linear 39s;
+    -webkit-animation: move 5s linear 39s;
+    -moz-animation: move 5s linear 39s;
+    -o-animation: move 5s linear 39s;
+    -ms-animation: move 5s linear 39s; 
+ }
+ .thirteen {
+    animation: move 6s linear 43s;
+    -webkit-animation: move 6s linear 43s;
+    -moz-animation: move 6s linear 43s;
+    -o-animation: move 6s linear 43s;
+    -ms-animation: move 6s linear 43s;
+ }
+ .forteen {
+    animation: move 7s linear 47s;
+    -webkit-animation: move 7s linear 47s;
+    -moz-animation: move 7s linear 47s;
+    -o-animation: move 7s linear 47s;
+    -ms-animation: move 7s linear 47s;
+ } 
+ .fifteen {
+    animation: move 10s linear 50s;
+    -webkit-animation: move 10s linear 50s;
+    -moz-animation: move 10s linear 50s;
+    -o-animation: move 10s linear 50s;
+    -ms-animation: move 10s linear 50s;
+ } 
+@keyframes move {
+    0% {opacity: 0;
+        color: #00008b;
+        transform: translateX(-100px);}
+    50% {
+        opacity: 1;
+        color: #690413;
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 0;
+        transform: rotateX(180deg);
+        color: #ffd700; 
+    }
+   }
+    
+    @-webkit-keyframes move {
+      0% {opacity: 0;
+          color: #00008b;
+          transform: translateX(-100px);}
+      50% {
+          opacity: 1;
+          color: #690413;
+          transform: translateX(100px);
+      }
+      100% {
+          opacity: 0;
+          transform: rotateX(180deg);
+          color: #ffd700; 
+      } 
+   }
+   @-moz-keyframes move {
+      0% {opacity: 0;
+         color: #00008b;
+         transform: translateX(-100px);}
+     50% {
+         opacity: 1;
+         color: #690413;
+         transform: translateX(100px);
+     }
+     100% {
+         opacity: 0;
+         transform: rotateX(180deg);
+         color: #ffd700; 
+     } 
+   }
+   @-o-keyframes move {
+      0% {opacity: 0;
+         color: #00008b;
+         transform: translateX(-100px);}
+     50% {
+         opacity: 1;
+         color: #690413;
+         transform: translateX(100px);
+     }
+     100% {
+         opacity: 0;
+         transform: rotateX(180deg);
+         color: #ffd700; 
+     } 
+   }
+   @-ms-keyframes move {
+      0% {opacity: 0;
+         color: #00008b;
+         transform: translateX(-100px);}
+     50% {
+         opacity: 1;
+         color: #690413;
+         transform: translateX(100px);
+     }
+     100% {
+         opacity: 0;
+         transform: rotateX(180deg);
+         color: #ffd700; 
+     } 
+   }
+    
